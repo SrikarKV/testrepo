@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+
+.btn-Primary {
+  /* height: 3rem; */
+  padding: 1rem 2.5rem;
+  color: white;
+  border-radius: 8px;
+  background-color: #132F58;
+}
+
+.btn-Primary-Neutral {
+  padding: 1rem 2.3rem; 
+  color: #132F58;
+  border-radius: 8px;
+  border-color: 1px solid #132F58;
+}
+
+.btn-Primary-Submit  {
+  padding: 1rem 2.5rem;
+  color: white;
+  border-radius: 8px;
+  background-color: #132F58;
+
+ 
+}
+
+.buttonsGroup{
+  margin-top: 2rem;
+  border-top: 2px solid rgba(128, 128, 128, 0.427);
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  padding-top: 30px;
+  gap: 10px;
+}

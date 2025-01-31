@@ -1,0 +1,115 @@
+/* .Layout {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 1.5rem;
+   flex-direction: column;
+   gap: 1.5rem;
+   background-color: white;
+    margin-top: 5rem; 
+} */
+
+.LabelTab  {
+   background-color:#344154 ;
+   color: #d9f0fe;
+   padding: 1.5rem;
+   border-radius: 1rem;
+   width: 100%;
+}
+.file-wrapper {
+   width: 100%;
+   margin-top: 1.5rem;
+}
+.PrimaryTile { 
+   padding: 1rem;
+   background-color:#ffffff;
+   border: 1px solid rgba(128, 128, 128, 0.301);
+   border-radius: 1rem;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+}
+.file-input-container{
+   width: 100%;
+   display: flex;
+   gap: 1rem;
+
+   
+}
+.file-input-container input {
+   width: 100%;
+   padding: 1rem;
+   border: 1px solid rgba(128, 128, 128, 0.301);
+   border-radius: 0.5rem;
+}
+.warningText {
+   color: rgb(248, 35, 35);
+}
+
+.lineEnding{
+   /* background-color: black; */
+   padding: 10px;
+   height: 0.5px;
+   width: 100%;
+   border-bottom: solid 2px #949cac;
+}
+
+.radio-group {
+   display: inline-flex; /* Ensures radio button and label are inline */
+   align-items: center;  /* Aligns vertically */
+   gap: 8px;    
+ 
+   margin-right     : 15px;   /* Space between Yes and No options */
+ }
+ .form-check-label{
+   width: 300px;
+   font-size: 13px;
+ }
+ .form-check-input{
+width: auto !important;
+margin-bottom: 0px !important;
+accent-color: #344154;
+ }
+ .previousButton{
+   background-color: white;
+   color: #344154;
+   width: 8%;
+   border: solid 0.2px rgb(75, 74, 74);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: 400;
+   font-size: 14px;
+   border-radius: 10%;
+ }
+ .previousButton:hover{
+   background-color: white;
+ }
+ .nextButton{
+   background-color: rgb(47, 52, 126);
+   color: #ffffff;
+   width: 8%;
+   height: 30px;
+   font-weight: 400;
+   font-size: 14px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10%;
+ }
+ .nextButton:hover{
+   background-color: rgb(47, 52, 126);
+ }
+ .textMessage{
+   font-size: 12px;
+ }
+ .textMessageTriag{
+   font-size: 13px;
+ }
+ .angleLeftIcon{
+   display: flex;
+   justify-content: flex-start;
+ }

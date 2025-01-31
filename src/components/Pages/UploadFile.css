@@ -1,0 +1,169 @@
+.Layout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 1.5rem; */
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: white;
+    /* margin-top: 5rem; */
+}
+
+.LabelTab  {
+    background-color:#344154 ;
+    color: #d9f0fe;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    width: 100%;
+}
+
+.PrimaryTile { 
+    padding: 1rem;
+    background-color:#eef9ff;
+    border: 1px solid rgba(128, 128, 128, 0.301);
+    border-radius: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.labelText {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.XsmallLabel {
+    font-size: small;
+}
+
+.warningText {
+    color: tomato;
+}
+
+
+.file-wrapper {
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+
+.file-upload-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+    border: 2px dashed #344154;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+
+
+.file-upload-wrapper:hover {
+    background-color: #eef2f7;
+}
+
+.file-upload-input {
+    display: none; /* Hide default file input */
+}
+
+.custom-file-upload {
+    width: 100%;
+    font-size: small;
+    color: #344154;
+}
+
+
+.file-input-container{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+
+}
+.file-input-container input {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid rgba(128, 128, 128, 0.301);
+    border-radius: 0.5rem;
+}
+
+.file-input-container button {
+    padding: 10px 2.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.btn-section {
+    padding: 1rem;
+    display: flex;
+    float: right;
+    gap: 1rem;
+}
+
+.upload-btn{
+    width: 8.75rem;
+    height: 3rem;
+    color: white;
+    border-radius: 8px;
+    background-color: #132F58;
+}
+
+.cancel-btn{
+    width: 8.75rem;
+    height: 3rem;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #132f57;
+    border: 1px solid #132f57 ;
+}
+
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Dark semi-transparent background */
+    backdrop-filter: blur(5px); /* Blur effect */
+    z-index: 998; /* Below modal but above everything else */
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 290px;
+    height: fit-content;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    text-align: center;
+    border: 1px solid gray;
+    z-index: 999; /* Ensures modal is above backdrop */
+}
+
+.modal-overlay h3 {
+    margin: 1rem 0 0.5rem;
+}
+
+.modal-overlay p {
+    font-size: 14px;
+    color: gray;
+}
+
+.loader img {
+    width: 2.5rem;
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,87 @@
+.welcome-container {
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 5rem 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: auto;
+  }
+  .layout-content{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+  }
+ 
+  .line-hr{
+    color: #344054;
+    border-bottom: 2px solid #1D2939;
+    margin-bottom: 1rem;
+    width: 70%;
+  }
+  .welcome-description {
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  .welcome-description span{
+    font-weight: 900;
+    color: #132f57;
+  }
+  .welcome-list{
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50%;
+  }
+  .cards-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50%;
+  }
+  .card{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(276deg, #0c111d 2.21%, #132f58 97.79%);
+  backdrop-filter: blur(10px);
+    border-radius: 1rem;
+    border: 2px solid var(--Secondary-Blue, #116de4);
+    padding: 3rem 2rem;
+    width: 100%;
+    height: 100%;
+    gap: 2rem;
+    align-items: flex-start;
+  }
+  .link-button {
+    display: flex;
+    align-items: center;
+    background: none;
+    color:#D9F1FF;
+    border: none;
+    padding: 0;
+    font-size: 16px;
+    border-bottom: 1px solid #D9F1FF;
+    /* text-decoration: underline; */
+    cursor: pointer;
+    font-size: small;
+    padding-bottom: 5px;
+    font-weight: 400;
+  }
+  
+  .link-button:hover {
+    color: #D9F1FF;
+  }
+  .icon-btn-view{
+    color: #D9F1FF;
+    font-size: small;
+  }
+  .card h3{
+    color: #D9F1FF;
+  }
+ 
+  
+  

@@ -1,0 +1,62 @@
+/* Navbar container */
+.navbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #101828;
+   color: white;
+   padding: 12px 20px;
+   width: 100%;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 1000;
+   height: 60px;
+}
+
+/* Left Section: Logo & Menu */
+.navbar-logo {
+   display: flex;
+   align-items: center;
+   gap: 15px;
+}
+
+/* Aiden AI Logo */
+.logo {
+   height: 1rem; /* Adjust based on your design */
+}
+
+/* Navbar Right Section */
+.navbar-right {
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+}
+
+/* Profile Button */
+.profile-btn {
+   background: none;
+   border: none;
+   color: white;
+   font-size: 30px;
+   cursor: pointer;
+}
+
+/* Logout Button */
+.logout-btn {
+   background: none;
+   border: none;
+   color: white;
+   font-size: 18px;
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+   margin-right:3rem
+}
+
+/* Ensures logout icon aligns properly */
+.logout-btn svg {
+   margin-right: 5px;
+}
+
+/* Make sure the rest of the page is not covered by fixed navbar */
