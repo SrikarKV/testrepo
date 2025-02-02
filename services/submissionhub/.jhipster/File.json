@@ -1,0 +1,36 @@
+{
+  "annotations": {
+    "changelogDate": "20250201043827"
+  },
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "fileName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fileDownloadUri",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "answers",
+      "fieldType": "String"
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "name": "File",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "id",
+      "otherEntityName": "submission",
+      "otherEntityRelationshipName": "files",
+      "relationshipName": "submission",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

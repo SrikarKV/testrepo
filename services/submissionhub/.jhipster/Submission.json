@@ -1,0 +1,52 @@
+{
+  "annotations": {
+    "changelogDate": "20250201043522"
+  },
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "caseId",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "submissionStatus",
+      "fieldType": "SubmissionStatus",
+      "fieldValues": "OPEN,IN_PROGRESS,RESOLVED,ESCALATED,CLOSED"
+    },
+    {
+      "fieldName": "insuredName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "assignTo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "assignToEmail",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "assignedBY",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "assignedByEmail",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "taskDueDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "createdDate",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "name": "Submission",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}
