@@ -17,5 +17,6 @@ public interface FileMapper extends EntityMapper<FileDTO, File> {
     @Named("submissionId")
     @BeanMapping(ignoreByDefault = true)
     @Mapping(target = "id", source = "id")
+    @Mapping(target="caseId", source="caseId")
     SubmissionDTO toDtoSubmissionId(Submission submission);
 }

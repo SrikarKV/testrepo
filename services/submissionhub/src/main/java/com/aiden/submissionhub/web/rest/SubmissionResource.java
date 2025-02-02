@@ -206,13 +206,13 @@ public class SubmissionResource {
     }
 
     /**
-     * {@code POST  /upload-and-proess} : Upload a file and process a case.
+     * {@code POST  /create-case} : Upload a file and process a case.
      *
      * @param multipartFile the file to upload and process.
      * @return the {@link ResponseEntity} with status {@code 201 (Created)} and with body the new fileDTO, or with status {@code 400 (Bad Request)} if the file has already an ID.
      * @throws URISyntaxException if the Location URI syntax is incorrect.
      */
-    @PostMapping("/upload-and-process")
+    @PostMapping("/create-case")
     public ResponseEntity<FileDTO> createCase(@RequestParam("file") MultipartFile multipartFile) throws URISyntaxException, IOException {
         LOG.debug("REST request to upload and process Submission : {}", multipartFile);
         FileDTO fileDTO = submissionService.createCase(multipartFile);

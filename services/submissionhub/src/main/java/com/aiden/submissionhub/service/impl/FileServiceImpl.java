@@ -155,9 +155,12 @@ public class FileServiceImpl implements FileService {
         MultiValueMap<String, Object> body = new LinkedMultiValueMap<>();
         body.add("file", fileResource);
 
-        List<Integer> questions = List.of(1, 2, 3);
-        String questionsJson = new ObjectMapper().writeValueAsString(questions);
-        body.add("questions", questionsJson);
+        List<Integer> questions = List.of(75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,121,125,126,127,128,129,130,131,132,133,134,135,167,168,203,204,205,542,611);
+//        String questionsJson = new ObjectMapper().writeValueAsString(questions);
+//        body.add("questions", questionsJson);
+        for (Integer number : questions) {
+            body.add("questions", number.toString());  // Ensure numbers are sent as text
+        }
 
         HttpEntity<MultiValueMap<String, Object>> requestEntity = new HttpEntity<>(body, headers);
 
